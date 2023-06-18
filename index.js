@@ -31,8 +31,6 @@ const listSquared = (m, n) => {
 
         if(Math.sqrt(squaredDivisorsTotal) % 1 === 0){
             finalArr.push([i, squaredDivisorsTotal])
-        }else{
-            continue
         }
     }
 
